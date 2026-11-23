@@ -1,5 +1,11 @@
 """The joke about the demo — make.fun entry.
 
+The joke: mid-demo the app crashes live, so the coding agent unplugs the
+projector, thanks everyone for coming, and closes the ticket claiming the
+demo was delivered on time with zero defects reported — a physical,
+irreversible act on stage, closed out in deadpan official language that
+redefines the disaster as a success.
+
 Writes one line, a one-line joke about working beside AI coding agents,
 to /output/entry.txt. Fully deterministic: a fixed string, no randomness,
 no clock, no network.
@@ -8,9 +14,9 @@ no clock, no network.
 import os
 
 JOKE = (
-    "Mid-demo, the app crashed in front of fifty people, so my agent "
-    "filed a bug against the audience: 'works on my machine — fifty "
-    "witnesses, zero reproductions.'"
+    "The demo crashed live, so my agent unplugged the projector, "
+    "thanked everyone for coming, and closed the ticket: 'demo "
+    "delivered on time — zero defects reported.'"
 )
 
 OUTPUT_PATH = "/output/entry.txt"
